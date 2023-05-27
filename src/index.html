@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>🫓🍢 NonBebar Kabab Biar</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="img-logo" src="img/pageLogo.png" alt="Page Image" />
+        <h1 class="game-title">Noon Bebar Kabab Biar</h1>
+        <div class="gameButtons">
+            <section class="game-section">
+
+                <button class="R-H" onclick="
+                playGame('Right Hand')
+                console.log(computerMove);">
+                    <img clas="RH" src="img/RH.png" alt="" width="50">
+                </button>
+
+                <button class="L-H" onclick="
+                playGame('Left Hand')
+                console.log(computerMove);">
+                    <img clas="LH" src="img/LH.png" alt="" width="50">
+                </button>
+            </section>
+        </div>
+
+        <div class="scoreButtons">
+            <section class="score-section">
+
+                <button class="Reset" onclick="
+                scoreBoard.Kabab = 0; 
+                scoreBoard.Noon = 0;
+                alert(`🔄 Scores have been Reset 🔄`)
+                ">
+                    Reset
+                </button>
+            </section>
+        </div>
+
+
+
+        <script type="text/javascript" src="logic.js">  </script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+.wrapper {
+  width: 100%;
+}
+
+div {
+  width: 30%;
+  display: grid;
+  place-items: center;
+  padding-top: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 10%;
+}
+
+.img-logo {
+  width: 30%;
+  border-radius: 100%;
+  padding-top: 5%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+}
+
+.game-title {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 10px;
+  padding-top: 5%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+}
+
+.R-H {
+  font-size: 40px;
+  border-radius: 100%;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 200ms ease;
+}
+.R-H:hover {
+  font-size: 2px;
+  padding: 0px;
+  display: inline-block;
+  background: transparent;
+  transition: 0.1s ease-in-out 0s;
+}
+
+.L-H {
+  font-size: 40px;
+  border-radius: 100%;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 200ms ease;
+}
+.L-H:hover {
+  font-size: 2px;
+  padding: 0px;
+  display: inline-block;
+  background: transparent;
+  transition: 0.1s ease-in-out 0s;
+}
+
+.Reset {
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 500px;
+  }
+
+  div {
+    width: 30%;
+    display: grid;
+    place-items: center;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10%;
+  }
+
+  .img-logo {
+    width: 20%;
+    border-radius: 0%;
+    padding-top: 0%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .game-title {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 10px;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .gameButtons {
+    font-size: 0px;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .R-H {
+    font-size: 40px;
+    border-radius: 100%;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 200ms ease;
+  }
+  .R-H:hover {
+    font-size: 2px;
+    padding: 0px;
+    display: inline-block;
+    background: transparent;
+    transition: 0.1s ease-in-out 0s;
+  }
+
+  .L-H {
+    font-size: 40px;
+    border-radius: 100%;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 200ms ease;
+  }
+  .L-H:hover {
+    font-size: 2px;
+    padding: 0px;
+    display: inline-block;
+    background: transparent;
+    transition: 0.1s ease-in-out 0s;
+  }
+
+  .Reset {
+    font-size: 15px;
+  }
+
+  .scoreButtons {
+    font-size: 0px;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+  }
+
+  div {
+    width: 30%;
+    display: grid;
+    place-items: center;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10%;
+  }
+
+  .img-logo {
+    width: 15%;
+    border-radius: 0%;
+    padding-top: 0%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .game-title {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 10px;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .gameButtons {
+    font-size: 0px;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .R-H {
+    font-size: 40px;
+    border-radius: 100%;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 200ms ease;
+  }
+  .R-H:hover {
+    font-size: 2px;
+    padding: 0px;
+    display: inline-block;
+    background: transparent;
+    transition: 0.1s ease-in-out 0s;
+  }
+
+  .L-H {
+    font-size: 40px;
+    border-radius: 100%;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 200ms ease;
+  }
+  .L-H:hover {
+    font-size: 2px;
+    padding: 0px;
+    display: inline-block;
+    background: transparent;
+    transition: 0.1s ease-in-out 0s;
+  }
+
+  .Reset {
+    font-size: 15px;
+  }
+
+  .scoreButtons {
+    font-size: 0px;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+}
